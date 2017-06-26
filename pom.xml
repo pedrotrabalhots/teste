@@ -89,6 +89,20 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>com.jelastic</groupId>
+                <artifactId>jelastic-maven-plugin</artifactId>
+                <version>1.8</version>
+                <configuration>
+                   <email>tabalhots@gmail.com</email>
+                   <password>trabalhots12345</password>
+                   <context>ROOT</context>
+                   <environment>trabalhots</environment>
+                   <comment>[insert comment if you need it]</comment>
+
+                  <api_hoster>app.jelasticlw.com.br</api_hoster>
+                </configuration>
+               </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
@@ -135,5 +149,17 @@
             </plugin>
         </plugins>
     </build>
-
+    
+    <pluginRepositories>
+        <pluginRepository>
+             <id>sonatype-oss-public</id>
+             <url>https://oss.sonatype.org/content/groups/public</url>
+             <releases>
+                 <enabled>true</enabled>
+             </releases>
+             <snapshots>
+                 <enabled>true</enabled>
+             </snapshots>
+         </pluginRepository>
+    </pluginRepositories>
 </project>
