@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <calculo id="1" contribuicaoOficial="900" dataCalculo="2017-06-29 00:00:00" deducaoEducacao="150" deducaoOutra="200" deducaoPensao="250" deducaoSaude="300" nome="Gustin" numeroDependente="2"  rendimento="9000"  />
+    <calculo id="2" contribuicaoOficial="900" dataCalculo="2017-06-28 00:00:00" deducaoEducacao="150" deducaoOutra="200" deducaoPensao="250" deducaoSaude="300" nome="Zezin" numeroDependente="2"  rendimento="9000"  />
+</dataset>
