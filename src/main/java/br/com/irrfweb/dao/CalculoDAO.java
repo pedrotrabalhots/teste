@@ -51,6 +51,5 @@ public class CalculoDAO {
     public int limpaHistorico() {
         return (int) manager.createNativeQuery("delete from Calculo").executeUpdate();
     }
-
    
 }
