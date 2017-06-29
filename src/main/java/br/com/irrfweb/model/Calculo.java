@@ -233,23 +233,14 @@ public class Calculo implements Serializable {
     }
 
     public double deducoes() {
-        return calculoDependentes() + deducaoEducacao + deducaoOutra + deducaoPensao + deducaoSaude+contribuicaoOficial;
+        return calculoDependentes() + deducaoEducacao + deducaoOutra + 
+                deducaoPensao + deducaoSaude + contribuicaoOficial;
     }
 
     public double baseCalculo() {
         return rendimento - deducoes();
     }
 
-    /*
-Demonstrativo da Apuração do Imposto
-Faixa da Base de Cálculo	Alíquota	Valor do Imposto
-1ª Faixa	1.903,98	Isento	0,00
-2ª Faixa	922,67	 7,5%	69,20
-3ª Faixa	924,40	15,0%	138,66
-4ª Faixa	913,63	22,5%	205,57
-5ª Faixa	59.766,55	27,5%	16.435,80
-Total	64.431,23	---	16.849,23
-     */
     public double imposto() {
         double faixa4 = 1903.98 + 922.67 + 924.40 + 913.63;
         double faixa3 = 1903.98 + 922.67 + 924.40;
