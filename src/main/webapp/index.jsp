@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<h2>Simulação de Alíquota Efetiva de Imposto de Renda</h2>  
+<h2>Simulação de Alíquota Efetiva de Imposto de Renda corrigido</h2>  
 <!--<h3>Preencha o formulário para realizar os Cálculos:</h3>-->
 <h4 style="color: red;font-weight: bolder">${requestScope.msg}</h4>
 <div class="footer"> 
