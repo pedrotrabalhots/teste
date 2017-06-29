@@ -3,7 +3,7 @@
 
 <div class="col span_2_of_2"> 
     <header> 
-        <h3>Erro Encontrado</h3> 
+        <h3>Erro Encontrado - corrigido</h3> 
     </header>  
     <img src="images/icon-black-112.png" style="width:50%" />  
     <p>
